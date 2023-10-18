@@ -1,0 +1,8 @@
+## Interface: 100107
+## Version: 1
+## Title: FrameColor_Skin_WeakAurasOptions
+## Author: Slothpala
+## Dependencies: WeakAuras FrameColor
+
+FrameColor_Skin_WeakAurasOptions.lua
+
