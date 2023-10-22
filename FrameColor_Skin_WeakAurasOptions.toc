@@ -1,8 +1,9 @@
 ## Interface: 100107
-## Version: 1
+## Version: @project-version@
 ## Title: FrameColor_Skin_WeakAurasOptions
 ## Author: Slothpala
 ## Dependencies: WeakAuras FrameColor
+## X-Curse-Project-ID: 926187
 
 FrameColor_Skin_WeakAurasOptions.lua
 
