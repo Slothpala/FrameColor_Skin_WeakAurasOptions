@@ -41,6 +41,9 @@ end
 function module:Recolor(main_color, bg_color, desaturation)
     --recolor frame
     local WeakAurasOptions = WeakAurasOptions
+    if not WeakAurasOptions then 
+        return
+    end
     for _, texture in pairs({
         WeakAurasOptions.NineSlice.TopEdge,
         WeakAurasOptions.NineSlice.BottomEdge,
@@ -55,7 +58,9 @@ function module:Recolor(main_color, bg_color, desaturation)
         texture:SetVertexColor(main_color.r,main_color.g,main_color.b) 
     end
     local Bg = WeakAurasOptionsBg
-    Bg:SetDesaturation(desaturation)
-    Bg:SetVertexColor(bg_color.r, bg_color.g, bg_color.b)
+    if Bg then
+        Bg:SetDesaturation(desaturation)
+        Bg:SetVertexColor(bg_color.r, bg_color.g, bg_color.b)
+    end
 end
 
