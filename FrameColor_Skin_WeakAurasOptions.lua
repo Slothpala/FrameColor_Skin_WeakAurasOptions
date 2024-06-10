@@ -10,10 +10,6 @@ local info = {
 }
 local module = FrameColor_CreateSkinModule(info)
 
-local pairs = pairs
-local SetDesaturation = SetDesaturation
-local SetVertexColor = SetVertexColor
-
 function module:OnEnable()
     local main_color = self:GetColor1()
     local bg_color = self:GetColor2()
